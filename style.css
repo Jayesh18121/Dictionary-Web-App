@@ -1,0 +1,183 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    min-height: 100vh;
+}
+.container {
+    width: 1152px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+nav {
+    background: #553C9A;
+    color: #fff;
+    padding: 1rem 0;
+}
+section.input {
+    padding-top: 100px;
+}
+h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.form__wrap {
+    display: flex;
+    justify-content: center;
+}
+.input__wrap {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    min-width: 400px;
+    outline: none;
+}
+button{
+    background:#553C9A;
+    color: #fff;
+    height: 100%;
+    font-size: 16px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+section.data{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.loading {
+    display: none;
+}
+
+section.data p.def {
+    font-size: 20px;
+    color: #2D3748;
+    line-height: 1.6;
+}
+
+.audio {
+    margin-top: 20px;
+}*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+#navbar {
+  width: 100vw;
+  height: 8vh;
+  background-color: rgb(34, 34, 76);
+}
+.container {
+  font-size: 3vh;
+  color: white;
+  text-align: center;
+  padding: 1vh;
+}
+.input_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 58vw;
+  height: 20vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.input_label {
+  font-size: 1.8em;
+  text-align: center;
+}
+.input_wrap {
+  display: flex;
+}
+#input {
+  width: 30vw;
+  height: 5vh;
+}
+#search {
+  cursor: pointer;
+  width: 8vw;
+  height: 5vh;
+  background-color: rgb(34, 34, 76);
+  color: white;
+}
+.loading {
+  display: none;
+}
+.audio {
+  display: none;
+}
+.loading {
+  text-align: center;
+  font-weight: bolder;
+}
+.content_dict {
+  background-color: rgb(231, 228, 246);
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 2vh;
+}
+.header_def {
+  text-transform: capitalize;
+  margin-left: 5vw;
+}
+.def {
+  margin-left: 5vw;
+}
+.not__found {
+  text-align: center;
+  font-weight: bolder;
+}
+.audio_section {
+  margin-left: 5vw;
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 2vh;
+  align-items: center;
+}
+.err_aud {
+  margin-left: 5vw;
+  margin-bottom: 2vh;
+}
+.nym_wrap {
+  display: none;
+  text-align: center;
+  margin-top: 3vh;
+}
+.synonym_list,
+.antonym_list {
+  background-color: rgb(231, 228, 246);
+  margin-bottom: 2vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}

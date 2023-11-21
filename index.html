@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary app</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <div class="container">
+        <h1 id="nav_header">Dictionary</h1>
+      </div>
+    </nav>
+
+    <section class="input_container">
+      <h2 class="input_label">
+        Search for overall information of word you want to know :)
+      </h2>
+      <div class="form__wrap">
+        <div class="input__wrap">
+          <input type="text" placeholder="Type a word" id="input" />
+          <button id="search">Search</button>
+        </div>
+      </div>
+    </section>
+    <section class="data_container">
+      <span class="loading">Loading...</span>
+      <div class="content_dict">
+        <h2 class="header_def"></h2>
+        <p class="def"></p>
+      </div>
+      <div class="audio_section">
+        <audio class="audio" controls="controls">
+          <source src="" type="audio/mpeg" />
+        </audio>
+        <!--to be -->
+        <!--to be-->
+      </div>
+      <div class="nym_wrap">
+        <div class="synonym_list">
+          <h2 class="syn_header">SYNONYM</h2>
+          <p class="syn_error"></p>
+        </div>
+        <div class="antonym_list">
+          <h2 class="ant_header">ANTONYM</h2>
+          <p class="ant_error"></p>
+        </div>
+      </div>
+      <div class="not__found"></div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
